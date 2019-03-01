@@ -14,11 +14,16 @@
 		84673F7822262EC7007844E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84673F7622262EC7007844E9 /* LaunchScreen.storyboard */; };
 		84673F8322262EC7007844E9 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673F8222262EC7007844E9 /* TestTests.swift */; };
 		84673F8E22262EC7007844E9 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673F8D22262EC7007844E9 /* TestUITests.swift */; };
-		84673F9D22263D0B007844E9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673F9B22263D0B007844E9 /* LoginViewController.swift */; };
-		84673F9E22263D0B007844E9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84673F9C22263D0B007844E9 /* LoginViewController.xib */; };
-		84673FA422265064007844E9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673FA222265064007844E9 /* RegisterViewController.swift */; };
-		84673FA522265064007844E9 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84673FA322265064007844E9 /* RegisterViewController.xib */; };
 		84673FA822268E67007844E9 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673FA722268E67007844E9 /* Controller.swift */; };
+		84673FAE2226A46E007844E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84673FAD2226A46E007844E9 /* Login.storyboard */; };
+		84673FB02226A493007844E9 /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84673FAF2226A493007844E9 /* Login2ViewController.swift */; };
+		84EB7A5922277A490044C51D /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EB7A5822277A490044C51D /* Register.storyboard */; };
+		84EB7A5B22277EA00044C51D /* Register2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7A5A22277EA00044C51D /* Register2ViewController.swift */; };
+		84EB7A5F22278F900044C51D /* TableViewTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EB7A5E22278F900044C51D /* TableViewTest.storyboard */; };
+		84EB7A6322278FFC0044C51D /* TableViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7A6222278FFC0044C51D /* TableViewTestViewController.swift */; };
+		84EB7A6822279B1A0044C51D /* TestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7A6722279B1A0044C51D /* TestCell.swift */; };
+		84EB7A6A22279B290044C51D /* TestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EB7A6922279B290044C51D /* TestCell.xib */; };
+		84EB7A6C2227AE920044C51D /* UnknownResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB7A6B2227AE920044C51D /* UnknownResponse.swift */; };
 		A415E41648154E1B6242E2C6 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A88920446A91CB3B9E090D07 /* Pods_Test.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,11 +61,16 @@
 		84673F8922262EC7007844E9 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84673F8D22262EC7007844E9 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		84673F8F22262EC7007844E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84673F9B22263D0B007844E9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		84673F9C22263D0B007844E9 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		84673FA222265064007844E9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		84673FA322265064007844E9 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		84673FA722268E67007844E9 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		84673FAD2226A46E007844E9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		84673FAF2226A493007844E9 /* Login2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
+		84EB7A5822277A490044C51D /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		84EB7A5A22277EA00044C51D /* Register2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register2ViewController.swift; sourceTree = "<group>"; };
+		84EB7A5E22278F900044C51D /* TableViewTest.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewTest.storyboard; sourceTree = "<group>"; };
+		84EB7A6222278FFC0044C51D /* TableViewTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTestViewController.swift; sourceTree = "<group>"; };
+		84EB7A6722279B1A0044C51D /* TestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCell.swift; sourceTree = "<group>"; };
+		84EB7A6922279B290044C51D /* TestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCell.xib; sourceTree = "<group>"; };
+		84EB7A6B2227AE920044C51D /* UnknownResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownResponse.swift; sourceTree = "<group>"; };
 		A88920446A91CB3B9E090D07 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9BF213F1595D32451437FB8 /* Pods_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -126,13 +136,14 @@
 		84673F6C22262EC6007844E9 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				84673FAC2226A40C007844E9 /* UI */,
+				84673FAB2226A3EC007844E9 /* Extension */,
+				84673FA92226A399007844E9 /* Model */,
 				84673FA622268E41007844E9 /* Controller */,
 				84673F9F22263D48007844E9 /* View */,
 				84673F6D22262EC6007844E9 /* AppDelegate.swift */,
 				84673F6F22262EC6007844E9 /* ViewController.swift */,
-				84673F7122262EC6007844E9 /* Main.storyboard */,
 				84673F7422262EC7007844E9 /* Assets.xcassets */,
-				84673F7622262EC7007844E9 /* LaunchScreen.storyboard */,
 				84673F7922262EC7007844E9 /* Info.plist */,
 			);
 			path = Test;
@@ -159,36 +170,72 @@
 		84673F9F22263D48007844E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				84673FA12226504B007844E9 /* RegisterViewController */,
-				84673FA02226502D007844E9 /* LoginViewController */,
+				84EB7A6622279AFA0044C51D /* TableViewCelll */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		84673FA02226502D007844E9 /* LoginViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84673F9B22263D0B007844E9 /* LoginViewController.swift */,
-				84673F9C22263D0B007844E9 /* LoginViewController.xib */,
-			);
-			path = LoginViewController;
-			sourceTree = "<group>";
-		};
-		84673FA12226504B007844E9 /* RegisterViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84673FA222265064007844E9 /* RegisterViewController.swift */,
-				84673FA322265064007844E9 /* RegisterViewController.xib */,
-			);
-			path = RegisterViewController;
 			sourceTree = "<group>";
 		};
 		84673FA622268E41007844E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				84673FA722268E67007844E9 /* Controller.swift */,
+				84EB7A6122278FCC0044C51D /* TableView */,
+				84673FAA2226A3A8007844E9 /* Login */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		84673FA92226A399007844E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84673FAA2226A3A8007844E9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84673FAF2226A493007844E9 /* Login2ViewController.swift */,
+				84EB7A5A22277EA00044C51D /* Register2ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84673FAB2226A3EC007844E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84673FA722268E67007844E9 /* Controller.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		84673FAC2226A40C007844E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84673F7122262EC6007844E9 /* Main.storyboard */,
+				84673F7622262EC7007844E9 /* LaunchScreen.storyboard */,
+				84673FAD2226A46E007844E9 /* Login.storyboard */,
+				84EB7A5822277A490044C51D /* Register.storyboard */,
+				84EB7A5E22278F900044C51D /* TableViewTest.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84EB7A6122278FCC0044C51D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				84EB7A6222278FFC0044C51D /* TableViewTestViewController.swift */,
+				84EB7A6B2227AE920044C51D /* UnknownResponse.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		84EB7A6622279AFA0044C51D /* TableViewCelll */ = {
+			isa = PBXGroup;
+			children = (
+				84EB7A6722279B1A0044C51D /* TestCell.swift */,
+				84EB7A6922279B290044C51D /* TestCell.xib */,
+			);
+			path = TableViewCelll;
 			sourceTree = "<group>";
 		};
 		E31CF9440D98A738479046E0 /* Pods */ = {
@@ -306,11 +353,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84673F9E22263D0B007844E9 /* LoginViewController.xib in Resources */,
-				84673FA522265064007844E9 /* RegisterViewController.xib in Resources */,
+				84EB7A5F22278F900044C51D /* TableViewTest.storyboard in Resources */,
+				84673FAE2226A46E007844E9 /* Login.storyboard in Resources */,
 				84673F7822262EC7007844E9 /* LaunchScreen.storyboard in Resources */,
 				84673F7522262EC7007844E9 /* Assets.xcassets in Resources */,
+				84EB7A6A22279B290044C51D /* TestCell.xib in Resources */,
 				84673F7322262EC6007844E9 /* Main.storyboard in Resources */,
+				84EB7A5922277A490044C51D /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,12 +412,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,10 +436,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				84673FA822268E67007844E9 /* Controller.swift in Sources */,
-				84673F9D22263D0B007844E9 /* LoginViewController.swift in Sources */,
 				84673F7022262EC6007844E9 /* ViewController.swift in Sources */,
 				84673F6E22262EC6007844E9 /* AppDelegate.swift in Sources */,
-				84673FA422265064007844E9 /* RegisterViewController.swift in Sources */,
+				84EB7A6822279B1A0044C51D /* TestCell.swift in Sources */,
+				84EB7A5B22277EA00044C51D /* Register2ViewController.swift in Sources */,
+				84EB7A6C2227AE920044C51D /* UnknownResponse.swift in Sources */,
+				84673FB02226A493007844E9 /* Login2ViewController.swift in Sources */,
+				84EB7A6322278FFC0044C51D /* TableViewTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

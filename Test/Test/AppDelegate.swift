@@ -19,11 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        rootViewController = LoginViewController()
-        navigationController = UINavigationController(rootViewController: rootViewController!)
-        navigationController?.isNavigationBarHidden = true
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        if let loginViewController = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "Login2ViewController") as? Login2ViewController {
+            //
+            rootViewController = loginViewController
+            navigationController = UINavigationController(rootViewController: rootViewController!)
+            navigationController?.isNavigationBarHidden = true
+            window?.rootViewController = navigationController
+            window?.makeKeyAndVisible()
+        }
+        
         
         return true
     }
