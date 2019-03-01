@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Test View Controller-->
+        <scene sceneID="IcY-eY-Wlt">
+            <objects>
+                <viewController storyboardIdentifier="TableViewTestViewController" id="RnU-cn-Viz" customClass="TableViewTestViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7eD-LY-3w7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PNY-5I-jsh">
+                                <rect key="frame" x="0.0" y="20" width="375" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="ZaC-QM-LfQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dN-li-pjQ">
+                                <rect key="frame" x="0.0" y="84" width="375" height="583"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C9t-p5-vMw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="583"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="RnU-cn-Viz" id="N3Z-yO-QSa"/>
+                                            <outlet property="delegate" destination="RnU-cn-Viz" id="rrB-bc-Whg"/>
+                                        </connections>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="C9t-p5-vMw" secondAttribute="bottom" id="4Ak-wm-Xh5"/>
+                                    <constraint firstItem="C9t-p5-vMw" firstAttribute="top" secondItem="1dN-li-pjQ" secondAttribute="top" id="EW3-XM-BAd"/>
+                                    <constraint firstItem="C9t-p5-vMw" firstAttribute="leading" secondItem="1dN-li-pjQ" secondAttribute="leading" id="NNq-zx-daa"/>
+                                    <constraint firstAttribute="trailing" secondItem="C9t-p5-vMw" secondAttribute="trailing" id="mSF-gb-bmN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1dN-li-pjQ" firstAttribute="leading" secondItem="Mhp-9Y-V26" secondAttribute="leading" id="6Vg-MT-Ckg"/>
+                            <constraint firstItem="Mhp-9Y-V26" firstAttribute="bottom" secondItem="1dN-li-pjQ" secondAttribute="bottom" id="96y-Vr-Nzi"/>
+                            <constraint firstItem="PNY-5I-jsh" firstAttribute="leading" secondItem="Mhp-9Y-V26" secondAttribute="leading" id="BIF-pa-9qj"/>
+                            <constraint firstItem="Mhp-9Y-V26" firstAttribute="trailing" secondItem="1dN-li-pjQ" secondAttribute="trailing" id="Jyv-jU-4Vu"/>
+                            <constraint firstItem="Mhp-9Y-V26" firstAttribute="trailing" secondItem="PNY-5I-jsh" secondAttribute="trailing" id="V1H-j0-X3N"/>
+                            <constraint firstItem="1dN-li-pjQ" firstAttribute="top" secondItem="PNY-5I-jsh" secondAttribute="bottom" id="bx5-wL-1rr"/>
+                            <constraint firstItem="PNY-5I-jsh" firstAttribute="top" secondItem="Mhp-9Y-V26" secondAttribute="top" id="mSt-0Z-FSa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mhp-9Y-V26"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="C9t-p5-vMw" id="9KS-hE-hGZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wej-hU-MJS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308" y="48.125937031484263"/>
+        </scene>
+    </scenes>
+</document>
